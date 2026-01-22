@@ -1,6 +1,6 @@
 # CMake 최소 버전 요구사항
 # 로컬에 설치된 CMake 버전을 기입하셔야합니다.
-cmake_minimum_required(VERSION 4.2.1)
+cmake_minimum_required(VERSION 3.10)
 
 # 프로젝트 이름 및 버전
 project(SlideOnIce VERSION 0.1)
