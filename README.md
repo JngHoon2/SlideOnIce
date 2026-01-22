@@ -7,7 +7,34 @@ Slide On Ice는 터미널 환경에서 즐기는 전략적 슬라이딩 퍼즐 �
 단순히 클리어하는 것에 그치지 않고 각 레벨의 최단 시간 기록을 경신하며 자신의 한계에 도전해 보세요.
 
 # 빌드(사용) 방법
-TBD
+
+0.레포지토리 클론
+```
+cd 소스를 저장할 폴더
+git clone https://github.com/JngHoon2/SlideOnIce.git
+```
+1.빌드 폴더 생성 및 이동
+``` Linux
+// 소스 코드 폴더가 지저분해지지 않도록 별도의 build 폴더에서 작업합니다.
+mkdir build
+cd build
+```
+2.빌드 환경 구성
+```
+cmake ..
+```
+3.실행 파일 빌드
+```
+cmake --build .
+```
+4.실행
+```
+// Linux/Mac
+./SlideOnIce
+
+// Windows
+debug/SlideOnIce.exe
+```
 
 # 게임 설명
 
